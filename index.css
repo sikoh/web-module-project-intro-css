@@ -48,7 +48,7 @@ table {
     padding: 0%;
     margin:0%;
     max-width: 100%;
-    border: 1px solid gray;
+   
 }
 
 
@@ -56,15 +56,14 @@ html{
     font-size: 62.5%;
 }
 body{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.5;
-    color: #4f4f4f;
+    color: #000;
     font-family: 'Roboto Mono', monospace;
-
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 7rem;
+    font-size: 8rem;
 }
 section{
     padding: 2% 0;
@@ -81,19 +80,15 @@ nav a{
 /*Header Section Styles*/
 nav a{
     display: inline-block;
-    padding: 1% 0;
+    padding: 0.5% 0;
     width: 10%;
     border-radius: 10px;
     text-align: center;
     color:#ffff;
     text-decoration: none;
+    
 }
 
-
-
-.menu{
-    padding: 20%;
-}
 .about{
     background-color: #DDB9A3;
     color:white;
@@ -101,6 +96,7 @@ nav a{
     letter-spacing: 2px;
     word-spacing: 2px;
 }
+
 
 .orange{
  background-color: #ff764e;
@@ -131,14 +127,19 @@ nav a{
  .left{
      width: 40%;
      text-align: center;
+     top:40%;
+     margin-left: 5%;
+     
+     
  }
  .right{
      width: 45%;
-     margin-left: 5%;
-     top:40%;
-     text-align: center;
+     margin-left: 0%;
+     top:30%;
+     text-align: left;
      position: absolute;
      color: #000;
+     margin-right: 20%;
  }
 
 .picture1{
@@ -148,12 +149,33 @@ nav a{
     height: auto;
 }
 
+.textunder1{
+    text-align: center;
+    position: relative;
+    left:35%;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+    color: #000;
+}
 .picture2{
     position: relative;
     left:40%;
     width: 10%;
     height: auto;
+    margin-top: 5%;
 }
+.textunder2{
+    text-align: center;
+    position: relative;
+    left:35%;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 3%;
+}
+    
  /*background img*/
  
  .heroimg{
