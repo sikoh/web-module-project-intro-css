@@ -64,7 +64,7 @@ body{
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 10rem;
+    font-size: 7rem;
 }
 section{
     padding: 2% 0;
@@ -138,6 +138,7 @@ nav a{
      top:40%;
      text-align: center;
      position: absolute;
+     color: #000;
  }
 
 .picture1{
